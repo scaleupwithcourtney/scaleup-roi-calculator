@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-orange: #f59518;
+  --brand-orange-deep: #e67f00;
+  --charcoal: #0f172a;
+  --muted: #64748b;
+  --border: #e5e7eb;
+  --tint: #fff7e6;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: var(--charcoal);
+  background: radial-gradient(1200px 600px at 10% 0%, rgba(245,149,24,0.12), transparent 60%), #ffffff;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+}
